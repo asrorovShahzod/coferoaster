@@ -1,0 +1,34 @@
+.our__box {
+    margin: 0 auto;
+    padding-top: 170px;
+    padding-bottom: 160px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    .our__img {
+        border-radius: 12px;
+        margin-bottom: 80px;
+    }
+    .ourbox_info {
+        padding-top: 90px;
+        padding-left: 120px;
+        .ourbox__title {
+            font-family: $fontFraunces;
+            color: $titleBlack;
+            margin-bottom: 32px;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        .ourbox__text {
+            font-family: $fontBarlow;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            max-width: 540px;
+        }
+    }
+}

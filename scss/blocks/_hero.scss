@@ -1,0 +1,35 @@
+.hero {
+    &__box {
+        background-image: url('../images/backgraund_img_one.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 137px;
+        padding-left: 85px;
+        padding-bottom: 137px;
+        &_title {
+            font-family: $fontFraunces;
+            color: $titleWhity;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        &_text {
+            max-width: 450px;
+            font-family: $fontBarlow;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+        }
+    }
+}
+
+.boxx {
+    background-image: url("../../images/page2\ bgr1.png");
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}

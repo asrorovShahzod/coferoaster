@@ -1,0 +1,39 @@
+.uncompromising {
+    width: 100%;
+    &__box {
+        width: 100%;
+        background-color: #2C343E;
+        border-radius: 12px;
+        padding-top: 100px;
+        padding-left: 85px;
+        padding-bottom: 140px;
+        position: relative;
+        &_img {
+            width: 430px;
+            height: 460px;
+            border-radius: 12px;
+            position: absolute;
+            z-index: 1;
+            right: 80px;
+            top: -90px;
+        }
+        &_title {
+            font-family: $fontFraunces;
+            color: $titleWhity;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            margin-bottom: 32px;
+        }
+        &_text {
+            font-family: $fontBarlow;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            max-width: 540px;
+        }
+    }
+}
