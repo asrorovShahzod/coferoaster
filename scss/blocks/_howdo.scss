@@ -1,0 +1,209 @@
+.howdo {
+    width: 100%;
+    padding-left: 85px;
+    padding-left: 85px;
+}
+
+.howdo__box {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    .preferences {
+        width: 40%;
+    }
+    .preferences__title {
+        font-family: $fontFraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 24px;
+        &:hover {
+            color: black;
+        }
+        &:active {
+            opacity: 0.5;
+        }
+    }
+    .strongnumber {
+        font-family: $fontFraunces;
+        color: #83888F;
+        margin-right: 28px;
+        &:hover {
+            color: #0E8784;
+        }
+        &:active {
+            opacity: 0.5;
+        }
+    }
+    .preferences_liner {
+        width: 255px;
+        height: 2px;
+        background: #83888F;
+        margin-bottom: 24px;
+        &:hover {
+            background-color: black;
+        }
+    }
+}
+
+.inputbox {
+    width: 55%;
+}
+
+.form {
+    width: 100%;
+}
+
+.label_title {
+    max-width: 60%;
+    display: block;
+    font-family: $fontFraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.chekbox {
+    width: 100px;
+    display: flex;
+}
+
+.chekbox__coffee {
+    width: 230px;
+    height: 200px;
+    padding: 38px 28px;
+    &:hover {
+        background: #0E8784;
+        border-radius: 8px;
+    }
+}
+
+.chekbox__coffee__title {
+    width: 60%;
+    font-family: $fontFraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.chekbox__coffee__text {
+    min-width: 170px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.visually-hiddens {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.visually-hiddens:checked~.lable_block {
+    opacity: 100%;
+    height: 100px;
+}
+
+.visually-hiddens:checked~.backs {
+    background-image: url(../../icons/top.svg);
+}
+
+.backs {
+    background-image: url(../../icons/bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.lable_block {
+    width: 100%!important;
+    opacity: 0%;
+    display: flex;
+    height: 2px;
+    width: 100%;
+    transition: 1s all linear;
+}
+
+.box_order {
+    width: 100%;
+    background: #2C343E;
+    padding: 47px 64px;
+    .order_info {
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 8px;
+    }
+    .order_text {
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        /* or 167% */
+        color: #FFFFFF;
+    }
+    b {
+        color: #0E8784;
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    margin-bottom: 40px;
+}
+
+.bt {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.form_button {
+    height: 56px;
+    width: 217px;
+    font-family: Fraunces;
+    background: #E2DEDB;
+    border: 0;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+    color: #FEFCF7;
+    border-radius: 6px;
+}

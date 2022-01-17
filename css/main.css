@@ -409,4 +409,243 @@ p {
   line-height: 26px;
   color: #FEFCF7;
 }
+
+.howdo {
+  width: 100%;
+  padding-left: 85px;
+  padding-left: 85px;
+}
+
+.howdo__box {
+  width: 100%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.howdo__box .preferences {
+  width: 40%;
+}
+
+.howdo__box .preferences__title {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 24px;
+}
+
+.howdo__box .preferences__title:hover {
+  color: black;
+}
+
+.howdo__box .preferences__title:active {
+  opacity: 0.5;
+}
+
+.howdo__box .strongnumber {
+  font-family: Fraunces;
+  color: #83888F;
+  margin-right: 28px;
+}
+
+.howdo__box .strongnumber:hover {
+  color: #0E8784;
+}
+
+.howdo__box .strongnumber:active {
+  opacity: 0.5;
+}
+
+.howdo__box .preferences_liner {
+  width: 255px;
+  height: 2px;
+  background: #83888F;
+  margin-bottom: 24px;
+}
+
+.howdo__box .preferences_liner:hover {
+  background-color: black;
+}
+
+.inputbox {
+  width: 55%;
+}
+
+.form {
+  width: 100%;
+}
+
+.label_title {
+  max-width: 60%;
+  display: block;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.label {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.chekbox {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chekbox__coffee {
+  width: 230px;
+  height: 200px;
+  padding: 38px 28px;
+}
+
+.chekbox__coffee:hover {
+  background: #0E8784;
+  border-radius: 8px;
+}
+
+.chekbox__coffee__title {
+  width: 60%;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.chekbox__coffee__text {
+  min-width: 170px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.visually-hiddens {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.visually-hiddens:checked ~ .lable_block {
+  opacity: 100%;
+  height: 100px;
+}
+
+.visually-hiddens:checked ~ .backs {
+  background-image: url(../../icons/top.svg);
+}
+
+.backs {
+  background-image: url(../../icons/bottom.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.lable_block {
+  width: 100% !important;
+  opacity: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  width: 100%;
+  -webkit-transition: 1s all linear;
+  transition: 1s all linear;
+}
+
+.box_order {
+  width: 100%;
+  background: #2C343E;
+  padding: 47px 64px;
+  margin-bottom: 40px;
+}
+
+.box_order .order_info {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.box_order .order_text {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #FFFFFF;
+}
+
+.box_order b {
+  color: #0E8784;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.bt {
+  display: block;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 250px;
+}
+
+.form_button {
+  height: 56px;
+  width: 217px;
+  font-family: Fraunces;
+  background: #E2DEDB;
+  border: 0;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  border-radius: 6px;
+}
 /*# sourceMappingURL=main.css.map */
