@@ -2,6 +2,7 @@
     width: 100%;
     padding-left: 85px;
     padding-left: 85px;
+    padding-bottom: 168px;
 }
 
 .howdo__box {
@@ -84,6 +85,8 @@
     width: 230px;
     height: 200px;
     padding: 38px 28px;
+    background: #F4F1EB;
+    border-radius: 8px;
     &:hover {
         background: #0E8784;
         border-radius: 8px;
@@ -185,10 +188,8 @@
 
 .bt {
     display: block;
-    width: 100%;
     display: flex;
     align-items: center;
-    margin-left: 250px;
 }
 
 .form_button {
@@ -197,7 +198,6 @@
     font-family: Fraunces;
     background: #E2DEDB;
     border: 0;
-    margin-right: auto;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -206,4 +206,5 @@
     text-align: center;
     color: #FEFCF7;
     border-radius: 6px;
+    margin-left: auto;
 }

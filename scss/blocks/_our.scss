@@ -7,9 +7,11 @@
     justify-content: space-between;
     .our__img {
         border-radius: 12px;
+        width: 485px;
         margin-bottom: 80px;
     }
     .ourbox_info {
+        width: 50%;
         padding-top: 90px;
         padding-left: 120px;
         .ourbox__title {
@@ -30,5 +32,42 @@
             color: #333D4B;
             max-width: 540px;
         }
+    }
+}
+
+@media only screen and(max-width:1023px) {
+    .our__box .ourbox_info {
+        width: 50%;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and(max-width:900px) {
+    .our__box {
+        width: 100%;
+    }
+}
+
+@media only screen and( max-width:768px) {
+    .our__box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ourbox__title {
+        max-width: 100%;
+        align-items: center;
+        font-size: 24px!important;
+    }
+    .ourbox_info {
+        width: 100% !important;
+        .ourbox__text {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    .our__img {
+        width: 100% !important;
     }
 }

@@ -45,3 +45,28 @@
         }
     }
 }
+
+@media only screen and (max-width:900px) {
+    .country__box_title {
+        font-size: 24px!important;
+        font-style: normal!important;
+        font-weight: 900!important;
+        line-height: 36px!important;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .headquarters__box_title {
+        text-align: center;
+    }
+    .country {
+        flex-wrap: wrap!important;
+    }
+    .country__box {
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .country__box_text {
+        margin: 0 auto!important;
+    }
+}

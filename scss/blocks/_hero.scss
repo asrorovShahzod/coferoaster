@@ -33,3 +33,17 @@
     height: 450px;
     background-repeat: no-repeat;
 }
+
+@media only screen and(max-width:590px) {
+    .hero__box {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .hero__box_title {
+        text-align: center;
+    }
+    .hero__box_text {
+        max-width: 100%!important;
+        text-align: center!important;
+    }
+}

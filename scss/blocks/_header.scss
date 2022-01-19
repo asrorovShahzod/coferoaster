@@ -1,4 +1,7 @@
 .header {
+    .burger_img {
+        display: none;
+    }
     width: 100%;
     .header_box {
         width: 100%;
@@ -33,5 +36,14 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and ( max-width:590px) {
+    .header__nav {
+        display: none;
+    }
+    .burger_img {
+        display: block!important;
     }
 }
